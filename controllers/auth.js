@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const express = require('express');
 const bcrypt = require('bcrypt');
 const passport = require('passport');
 
@@ -51,7 +52,6 @@ exports.login=(req,res,next) =>{
     })(req,res,next);
     
 }
-
 
 
 exports.logout=(req,res,next) =>{
