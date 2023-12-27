@@ -1,2 +1,2 @@
 # node_SNS
-node,express를 사용한 SNS 프로젝트
+node,express, mysql를 사용한 SNS 프로젝트
